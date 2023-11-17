@@ -5,14 +5,14 @@ import {  faLock } from '@fortawesome/free-solid-svg-icons'
 
 function Login() {
     return (
-        <section className="vh-100" style={{ backgroundColor: "#FBA400" }}>
+        <section className="vh-100" style={{ backgroundColor: "whitesmoke" }}>
             <div className="container py-5 h-100 ">
                 <div className="row d-flex justify-content-center align-items-center h-100 ">
                     <div className="col col-xl-9">
                         <div className="card " style={{ borderRadius: "1rem" }}>
                             <div className="row g-0">
                                 <div className="col-md-6 col-lg-5 d-none d-md-block">
-                                    <img src="https://i.pinimg.com/originals/b9/36/76/b9367651f85bcf329da74970d30bbbe0.jpg"
+                                    <img src="https://tse4.mm.bing.net/th?id=OIP.nsLVzk9CzMMQ8T8cD1PSlQHaE8&pid=Api&P=0&h=180"
                                         alt="login form" className="img-fluid" style={{ borderRadius: "1rem 0 0 1rem" , height :"100%"}} />
                                 </div>
                                 <div className="col-md-6 col-lg-7 d-flex align-items-center">
@@ -22,7 +22,7 @@ function Login() {
 
                                             <div className="d-flex align-items-center mb-3 pb-1">
                                                 {/* <i className="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i> */}
-                                                <div className='fa-2x me-3' style={{ color: "#2E6A1A" }}>
+                                                <div className='fa-2x me-3' style={{ color: "BLUE" }}>
                                                     <FontAwesomeIcon icon={faLock} />
                                                 </div>
                                                 <span className="h1 fw-bold mb-0">Login</span>
@@ -41,7 +41,7 @@ function Login() {
                                             </div>
 
                                             <div className="pt-1 mb-4">
-                                                <Link className="btn btn-success btn-lg btn-block " to="/portal/userlist">Login</Link>
+                                                <Link className="btn btn-success btn-lg btn-block " to="/portal/userlist"style={{ backgroundColor: "BLUE" }}>Login</Link>
                                             </div>
                                         </form>
 
